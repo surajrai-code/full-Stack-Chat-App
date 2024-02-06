@@ -5,7 +5,7 @@ import { UserContext } from "./context/UserContext";
 import Chat from "./components/Chat";
 
 const App = () => {
-  axios.defaults.baseURL = "http://localhost:4000";
+  axios.defaults.baseURL = "https://realtimechatapp-ufqu.onrender.com/";
   axios.defaults.withCredentials = true;
   const { username, id } = useContext(UserContext);
 
